@@ -1,7 +1,7 @@
 .header__intro {
     display: block;
     flex-basis: 100%;
-    padding: 130px 0 135px;
+    padding: 130px 0 135px 0;
     font-size: 17px;
     font-weight: 400;
 }
@@ -25,7 +25,7 @@
     font-size: 20px;
     line-height: 30px;
     text-align: center;
-    padding: 35px 0 25px;
+    padding: 35px 0 25px 0;
 }
 
 .header__intro-sub-text {
@@ -35,9 +35,13 @@
     text-align: center;
 }
 
+.header__background--dark {
+    background: var(--background-dark);
+}
+
 @media(min-width: 768px) {
     .header__intro {
-        padding: 190px 0 157px;
+        padding: 190px 0 157px 0;
     }
 
     .header__intro-title {
@@ -46,13 +50,13 @@
 
     .header__intro-text {
         font-size: 20px;
-        padding: 30px 0 45px;
+        padding: 30px 0 45px 0;
     }
 }
 
 @media(min-width: 992px) {
     .header__intro {
-        padding: 250px 0 185px;
+        padding: 250px 0 185px 0;
     }
 
     .header__intro-title {
@@ -61,7 +65,6 @@
 
     .header__intro-text {
         font-size: 20px;
-        padding: 40px 0 45px;
+        padding: 40px 0 45px 0;
     }
-
 }

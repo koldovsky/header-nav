@@ -1,0 +1,35 @@
+
+.btn-primary {
+    font-size: 12px;
+    line-height: 1.1;
+    letter-spacing: 0.4px;
+    border: none;
+    border-radius: 35px;
+    background: var(--btn-primary);
+    padding: 8px 27px;
+    transition: background 0.5s ease;
+}
+
+.btn-light{
+    font-size: 14px;
+    color: var(--text-dark);
+    border: solid 2px var(--btn-outline-dark);
+    border-radius: 25px;
+    padding: 13px 37px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 1;
+    background: transparent;
+    transition: all 0.5s ease;
+}
+
+.btn-light:hover{
+    color: var(--btn-primary);
+    border-color: var(--btn-primary);
+}
+
+.btn-primary:hover {
+    background: var(--btn-primary-hover);
+}
+
